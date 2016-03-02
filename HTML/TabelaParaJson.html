@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+  <html> 
+  <head>
+  <meta charset="utf-8">     
+     <script src="jquery.min.js"></script>
+	 <script src="jquery.tabletojson.js"></script> 
+	 <script type="text/javascript" language="JavaScript">
+	  /*  $(document).ready(function() { 
+		 $('#run').click( function() {
+		    alert('111');
+			var table = $('#example-table').tableToJSON({ });
+			alert(JSON.stringify(table));  
+		});
+		});*/
+		function Converte()
+		{
+		  var table = $('#example-table').tableToJSON({ ignoreHiddenRows: false });
+	  alert(JSON.stringify(table));  
+		  return true;
+		};
+		
+	 </script>
+  </head>
+     <body>
+	 
+	 
+<table id='example-table' class="table table-striped" bgcolor="white" border="0" cellpadding="1" cellspacing="0" width="100%">
+
+      <tbody><tr><td class="bordaEsquerdaGrossa bordaAbaixoFina bordaDireitaFina titcel" nowrap=""><b>Num.Auto</b></td>
+      <td colspan="3" class="bordaAbaixoFina bordaDireitaFina titcel"><b>Descrição</b></td>
+      <td colspan="3" class="bordaAbaixoFina bordaDireitaGrossa titcel"><b>Local/Complemento</b></td> 
+	</tr>
+
+    <tr>
+      <td class="bordaEsquerdaGrossa bordaAbaixoFina bordaDireitaFina" nowrap="">
+	  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tbody><tr><td class="celnlef8">UF:RD-000100-R290283377-7455-0</td></tr>
+		<tr><td class="celnrig8">Em aberto                </td></tr>
+      </tbody></table>
+      </td>
+	  <td colspan="3" class="bordaAbaixoFina bordaDireitaFina">
+	  <table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr><td class="celnlef8">TRANSITAR EM VEL SUPERIOR À MÁXIMA PERMITIDA EM ATÉ 20%</td></tr>
+
+		<tr><td class="celnlef8">Em 8327 no dia 22/08/2015 13:18:00 às 13h18min</td></tr>
+
+	  </tbody></table>
+	  </td>
+	  <td colspan="3" class="bordaAbaixoFina bordaDireitaGrossa">
+	  <table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr><td class="celnlef8">BR-101 KM-204 UF-SC           </td></tr>
+		<tr><td class="celnlef8"></td></tr>
+	  </tbody></table>
+	  </td>
+    </tr>
+
+    <tr>
+      <td class="bordaEsquerdaGrossa bordaAbaixoFina bordaDireitaFina" nowrap="">
+	  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tbody><tr><td class="celnlef8">FLORIAN-008001-54785901F-5541-2</td></tr>
+		<tr><td class="celnrig8">Em aberto                </td></tr>
+      </tbody></table>
+      </td>
+	  <td colspan="3" class="bordaAbaixoFina bordaDireitaFina">
+	  <table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr><td class="celnlef8">ESTAC EM DESACOR C/ REGULAMENTACAO - ESTACIONAMENTO ROTATIVO</td></tr>
+
+		<tr><td class="celnlef8">Em 8105 no dia 09/11/2015 13:35:00 às 13h35min</td></tr>
+
+	  </tbody></table>
+	  </td>
+	  <td colspan="3" class="bordaAbaixoFina bordaDireitaGrossa">
+	  <table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr><td class="celnlef8">AV. HERCILIO LUZ , N 826</td></tr>
+		<tr><td class="celnlef8"></td></tr>
+	  </tbody></table>
+	  </td>
+    </tr>
+
+</tbody></table>
+
+
+<button id="run" class="btn btn-primary" onClick="return Converte();" >Convert!</button>
+
+</body>     
+ </html>  

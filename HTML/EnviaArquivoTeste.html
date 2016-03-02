@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <html> 
+     <body>
+		<script type="text/javascript" language="JavaScript">
+		function DefineDestino()
+		{
+		   var caminho;
+			 caminho = document.myform.edServidor.value + '?tabela=' + document.myform.edTabela.value;
+		   if(document.myform.tipoOpe[0].checked == true) {
+			 document.myform.action = caminho + '&tipoOpe=Insert';
+		   } 
+		   else
+			 document.myform.action = caminho + '&tipoOpe=Update&where='+document.myform.edWhere.value;
+			 
+		   document.myform.datafile.value = 'D:\\Desenvolvimento\\Delphi\\ProjetosRX\\DetranMormotServer\\HTML\\EnviaArquivoTeste.html';
+		return true;
+		}
+		</script>
+
+		 <form name="myform" action="" enctype="multipart/form-data" method="post"> 
+			<p>
+				Endereco:<br>
+				<input type="text" name="edServidor" size="100" value="http://localhost:7098/root/html/0/inserejson">
+			</p>
+			<p>
+				Tabela:<br>
+				<input type="text" name="edTabela" size="40">
+			</p>
+			<p>
+				Operacao:<br>
+				<input type="radio" name="tipoOpe">Insert<br>
+				<input type="radio" name="tipoOpe">Update - Where:<input type="text" name="edWhere" size="100"><br>
+			</p>
+			<p>
+				Selecione o arquivo JSON:<br>
+				<input type="file" name="datafile" size="40" value="D:\Desenvolvimento\Delphi\ProjetosRX\DetranMormotServer\HTML\EnviaArquivoTeste.html">
+			</p>
+			<div>
+				<input type="submit" value="Enviar" onClick="return DefineDestino();">
+			</div>
+		</form> 
+	</body>     
+ </html>  
