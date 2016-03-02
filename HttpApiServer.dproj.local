@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/06/07 17:29:31.000.290,D:\Desenvolvimento\Delphi\ProjetosXE7\LideraSmartMormot\unServidorRestFr.dfm=D:\Desenvolvimento\Delphi\ProjetosXE7\LideraSmartMormot\Unit1.dfm</Transaction>
+    <Transaction>2015/06/07 17:29:31.000.290,D:\Desenvolvimento\Delphi\ProjetosXE7\LideraSmartMormot\unServidorRestFr.pas=D:\Desenvolvimento\Delphi\ProjetosXE7\LideraSmartMormot\Unit1.pas</Transaction>
+    <Transaction>2015/06/07 18:45:50.000.356,D:\Desenvolvimento\Delphi\ProjetosXE7\LideraSmartMormot\unFuncoes.pas=D:\Desenvolvimento\Delphi\ProjetosXE7\LideraSmartMormot\unFuncSrvMormot.pas</Transaction>
+    <Transaction>2015/11/20 14:15:26.000.270,D:\Desenvolvimento\Delphi\ProjetosRX\LideraMormotServer\unRelatoriosLidera.dfm=D:\Desenvolvimento\Delphi\ProjetosRX\LideraMormotServer\Unit1.dfm</Transaction>
+    <Transaction>2015/11/20 15:49:49.000.040,D:\Desenvolvimento\Delphi\ProjetosRX\LideraMormotServer\Unit1.pas=D:\Desenvolvimento\Delphi\ProjetosRX\LideraMormotServer\unRelatorioLidera.pas</Transaction>
+  </Transactions>
+</BorlandProject>
