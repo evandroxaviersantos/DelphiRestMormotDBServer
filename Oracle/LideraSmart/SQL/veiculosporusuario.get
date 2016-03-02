@@ -1,0 +1,3 @@
+select * 
+  from veiculos 
+ where id_Usuario = :pid_Usuario

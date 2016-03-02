@@ -1,0 +1,3 @@
+delete 
+  from veiculos
+where ID_VEICULOS = :pid_veiculos

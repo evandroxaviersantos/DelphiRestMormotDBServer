@@ -1,0 +1,17 @@
+select m.id_veiculo,
+       v.placa,
+       m.status,
+       m.data_lcto,
+       m.hora_lcto,
+       m.data_defesa,
+       m.descricao1,
+       m.descricao2,
+       m.local_complemento1,
+       m.local_complemento2,
+       m.tipo_historico,
+       m.valor,
+       m.id_multa
+  from VEICULO_MULTA m
+  left join VEICULOS v
+    on v.id_veiculos = m.id_veiculo
+where m.id_veiculo = :pid_veiculo

@@ -1,0 +1,8 @@
+select v.placa, 
+       v.descricao,
+       m.* 
+  from VEICULO_MULTA m
+  left join VEICULOS v
+    on v.id_veiculos = m.id_veiculo
+where v.id_usuario = :pid_usuario
+  
